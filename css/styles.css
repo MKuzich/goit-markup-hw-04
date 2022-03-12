@@ -165,8 +165,8 @@ ul {
   margin-left: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background: var(--theme-hero-dark);
-  background-image: url('../images/hero-bckgrnd.jpg');
+  background-image: linear-gradient(to right, var(--theme-hero-dark), var(--theme-hero-dark)),
+    url('../images/hero-bckgrnd.jpg');
   background-repeat: no-repeat;
   background-size: 1600px;
   background-color: var(--theme-bckgrnd-hero);
