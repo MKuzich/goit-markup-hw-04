@@ -6,7 +6,7 @@
   --theme-contacts: rgba(255, 255, 255, 0.6);
   --theme-nav: #212121;
   --theme-bckgrnd-hero: #2f303a;
-  --theme-btn: #2196f3;
+  --theme-btn: #188ce8;
   --theme-bckgrnd-team: #f5f4fa;
   --theme-border-color: #eeeeee;
   --theme-header-border: #ececec;
@@ -248,8 +248,10 @@ ul {
 }
 
 .benefits-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
-  padding: 25px 100px;
   height: 120px;
   width: 270px;
   background-color: var(--theme-bckgrnd-team);
@@ -335,6 +337,7 @@ ul {
 }
 
 .team-item-text {
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -375,7 +378,8 @@ ul {
 }
 
 .social-links-list {
-  padding: 16px 32px 0 32px;
+  display: flex;
+  justify-content: center;
 }
 
 .social-icon {
@@ -399,18 +403,15 @@ ul {
 }
 
 .clients-link {
-  display: block;
+  display: flex;
   height: 92px;
   width: 170px;
   border: 1px solid var(--theme-social);
   border-radius: 4px;
-  padding: 16px 32px;
 }
 
 .clients-icon {
   fill: var(--theme-social);
-  height: 60px;
-  width: 106px;
 }
 
 .clients-link:hover,
@@ -481,11 +482,11 @@ ul {
 
 .footer > .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-links-container {
   margin-left: 70px;
-  padding-top: 12px;
 }
 
 .footer-social-title {
@@ -531,12 +532,17 @@ ul {
 }
 
 .examples-section-items {
-  width: 370px;
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.examples-section-items:hover {
+.examples-link {
+  display: block;
+  width: 370px;
+  text-decoration: none;
+}
+
+.examples-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
