@@ -158,6 +158,7 @@ img {
   background-repeat: no-repeat;
   max-width: 1440px;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hero > .container {
