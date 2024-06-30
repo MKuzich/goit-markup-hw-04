@@ -351,7 +351,11 @@ img {
 }
 .footer-socials {
   gap: 16;
-  margin-bottom: 24px;
+}
+
+.footer-socials .social-link:hover,
+.footer-socials .social-link:focus {
+  background-color: var(--success-color);
 }
 
 .visually-hidden {
