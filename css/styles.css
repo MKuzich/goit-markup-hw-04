@@ -336,6 +336,7 @@ img {
 
 .footer-cols {
   display: flex;
+  align-items: baseline;
   gap: 120px;
 }
 
