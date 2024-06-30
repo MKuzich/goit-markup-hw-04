@@ -337,7 +337,10 @@ img {
 .footer-cols {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-col {
+  margin-right: 120px;
 }
 
 .cols-title {
@@ -347,21 +350,10 @@ img {
   font-weight: 500;
 }
 .footer-socials {
-  max-width: 208px;
-  flex-grow: 1;
+  gap: 16;
+  margin-bottom: 24px;
 }
 
-.footer .social-item {
-  border-radius: 50%;
-  background-color: var(--primary-color);
-  padding: 12px;
-  display: block;
-}
-.footer .social-icon {
-  width: 16px;
-  height: 16px;
-  display: block;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
