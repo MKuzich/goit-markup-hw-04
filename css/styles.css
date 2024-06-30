@@ -350,7 +350,7 @@ img {
   font-weight: 500;
 }
 .footer-socials .social-list {
-  gap: 16;
+  gap: 16px;
 }
 
 .footer-socials .social-link:hover,
